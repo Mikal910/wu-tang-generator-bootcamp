@@ -1,0 +1,43 @@
+/* Basic styling for the container */
+body {
+    background-color: #030e1a;
+    color: #ecf0f1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #ecf0f1;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #050505;
+}
+
+/* Style for the button */
+button {
+    background-color: #ebdc15;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style for the button hover */
+button:hover {
+    background-color: #ee1f04;
+}
+
+/* Style for the generated name */
+#wu-tang-name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
